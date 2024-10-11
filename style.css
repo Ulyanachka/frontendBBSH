@@ -555,6 +555,10 @@
     color: #545454; /* изменить цвет текста */
     position: absolute;
   }
+  .header .component input[type="text"]:hover {
+    background-color: #dedddd; /* изменить цвет при наведении */
+}
+
 
 
 .header .searchimg {
@@ -583,4 +587,8 @@
     line-height: normal;
     position: absolute;
     letter-spacing: 0;
+}
+.header .text-wrapper-2:hover {
+    text-shadow: 0 0 10px #ffffff; /* добавляем эффект тени текста */
+    color: #ffffff; /* изменяем цвет текста на желтый */
 }
