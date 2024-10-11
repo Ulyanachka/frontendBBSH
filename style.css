@@ -495,7 +495,7 @@
     left: 3px;
 }
 
-.header .group-2 {
+.header .menu {
     position: absolute;
     width: 55px;
     height: 38px;
@@ -538,34 +538,31 @@
     left: 899px;
 }
 
-.header .component {
+.header .component input[type="text"]{
+    padding-left: 20px;
     position: absolute;
-    width: 260px;
+    width: 240px;
     height: 55px;
     top: 32px;
     left: 169px;
     background-color: #a9a9a9;
     border-radius: 10px;
+    font-size: 24px;
+    text-transform: capitalize; 
 }
-
-.header .text-wrapper {
+.component input[type="text"]::placeholder {
+    font-size: 24px; /* увеличить размер шрифта */
+    color: #545454; /* изменить цвет текста */
     position: absolute;
-    top: 12px;
-    left: 20px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #00000080;
-    font-size: 24.6px;
-    letter-spacing: 0;
-    line-height: normal;
-}
+  }
 
-.header .ic-twotone-search {
+
+.header .searchimg {
     position: absolute;
     width: 45px;
     height: 45px;
-    top: 5px;
-    left: 207px;
+    top: 40px;
+    left: 380px;
 }
 
 .header .div-wrapper {
