@@ -40,125 +40,6 @@
     left: 1241px;
 }
 
-/* .desktop .group {
-    position: absolute;
-    width: 48px;
-    height: 49px;
-    top: 35px;
-    left: 1016px;
-}
-
-.desktop .ellipse {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    top: 0;
-    left: 12px;
-    background-color: #d9d9d9;
-    border-radius: 12.26px;
-}
-
-.desktop .img {
-    position: absolute;
-    width: 46px;
-    height: 46px;
-    top: 0px;
-    left: 3px;
-}
-
-.desktop .group-2 {
-    position: absolute;
-    width: 55px;
-    height: 38px;
-    top: 41px;
-    left: 39px;
-}
-
-.desktop .rectangle-2 {
-    position: absolute;
-    width: 55px;
-    height: 6px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-}
-
-.desktop .rectangle-3 {
-    position: absolute;
-    width: 55px;
-    height: 6px;
-    top: 32px;
-    left: 0;
-    background-color: #ffffff;
-}
-
-.desktop .rectangle-4 {
-    position: absolute;
-    width: 55px;
-    height: 6px;
-    top: 16px;
-    left: 0;
-    background-color: #ffffff;
-}
-
-.desktop .solar-cart-line {
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    top: 27px;
-    left: 899px;
-}
-
-.desktop .component {
-    position: absolute;
-    width: 260px;
-    height: 55px;
-    top: 32px;
-    left: 169px;
-    background-color: #a9a9a9;
-    border-radius: 10px;
-}
-
-.desktop .text-wrapper {
-    position: absolute;
-    top: 12px;
-    left: 20px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #00000080;
-    font-size: 24.6px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .ic-twotone-search {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 5px;
-    left: 207px;
-}
-
-.desktop .div-wrapper {
-    position: absolute;
-    width: 110px;
-    height: 44px;
-    top: 38px;
-    left: 1098px;
-}
-
-.desktop .text-wrapper-2 {
-    top: -1px;
-    left: 0;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 36px;
-    line-height: normal;
-    position: absolute;
-    letter-spacing: 0;
-} */
-
 .desktop .rectangle-5 {
     position: absolute;
     width: 1167px;
@@ -503,32 +384,6 @@
     left: 39px;
 }
 
-.header .rectangle-2 {
-    position: absolute;
-    width: 55px;
-    height: 6px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-}
-
-.header .rectangle-3 {
-    position: absolute;
-    width: 55px;
-    height: 6px;
-    top: 32px;
-    left: 0;
-    background-color: #ffffff;
-}
-
-.header .rectangle-4 {
-    position: absolute;
-    width: 55px;
-    height: 6px;
-    top: 16px;
-    left: 0;
-    background-color: #ffffff;
-}
 
 .header .solar-cart-line {
     position: absolute;
@@ -591,4 +446,56 @@
 .header .text-wrapper-2:hover {
     text-shadow: 0 0 10px #ffffff; /* добавляем эффект тени текста */
     color: #ffffff; /* изменяем цвет текста на желтый */
+}
+
+
+
+#menu-button {
+    position: absolute; /* or position: relative; */
+    background-color: #333;
+    color: #fff;
+    /* padding: 30px 60px; */
+    left: 55px;
+    top: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* стили для контейнера выпадающего меню */
+#menu-container {
+    width: 300px;
+    height: 550px;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    background-color: #222222;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+    border-radius: 10px;
+}
+
+/* стили для элементов меню */
+#menu-container ul {
+    list-style: none;
+    margin: 0px;
+    padding: 50px;
+}
+
+#menu-container li {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-family: Onest;
+}
+
+#menu-container a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu-container a:hover {
+    color: #bababa;
 }

@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="globals.css" />
         <link rel="stylesheet" href="styleguide.css" />
         <link rel="stylesheet" href="style.css" />
+        <!-- <link rel="stylesheet" href="script.js" /> -->
     </head>
     <header class="header">
       <div class="overlap">
@@ -17,11 +18,33 @@
               <div class="group"> 
                   <img class="img" src="img/chelovek.svg" />
               </div>
-              <div class="menu">
-                  <div class="rectangle-2"></div>
-                  <div class="rectangle-3"></div>
-                  <div class="rectangle-4"></div>
+              
+                <button id="menu-button">
+                  <img class="img" src="img/menu.png"/></button>
+
+<!-- контейнер для выпадающего меню -->
+              <div id="menu-container">
+                  <ul>
+                      <li><a href="#">Меню</a></li>
+                      <li><a href="#">Корзина</a></li>
+                      <li><a href="#">Адреса</a></li>
+                      <li><a href="#">Написать отзыв</a></li>
+                      <li><a href="#">Акции</a></li>
+                  </ul>
               </div>
+              <script>
+                // получаем кнопку и контейнер для выпадающего меню
+const menuButton = document.getElementById('menu-button');
+const menuContainer = document.getElementById('menu-container');
+
+// добавляем обработчик события клика на кнопку
+menuButton.addEventListener('click', function() {
+    // показываем или скрываем контейнер выпадающего меню
+    menuContainer.style.display = menuContainer.style.display === 'block' ? 'none' : 'block';
+});
+
+              </script>
+              
               <img class="solar-cart-line" src="img/solar_cart-line-duotone.svg" />
               <div class="component">
                   <input type="text" placeholder="Search" />
@@ -84,3 +107,4 @@
       </div>
     </body>
 </html>
+ 
